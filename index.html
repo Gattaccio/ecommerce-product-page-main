@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navigation">
+    <div class="top-left">
+      <img src="./images/icon-menu.svg" alt="" class="burger">
+    <img src="./images/logo.svg" alt="" class="logo">
+    <ul class="menu">
+      <li class="voice">
+        <a href="#" class="link">Collections</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Men</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Women</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">About</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Contact</a>
+      </li>
+    </ul>
+    </div>
+    <div class="top-right">
+      <div class="notification">
+        3
+      </div>
+      <img src="./images/icon-cart.svg" class="cart">
+      <img src="./images/image-avatar.png" class="avatar">
+    </div>
+  </div>
+  <div class="container-mobile">
+  <div class="mobile-menu">
+    <img src="./images/icon-close.svg" id="btn-close-mobile">
+    <ul class="menu">
+      <li class="voice">
+        <a href="#" class="link">Collections</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Men</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Women</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">About</a>
+      </li>
+      <li class="voice">
+        <a href="#" class="link">Contact</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+
+  <!-- Cart Section -->
+
+  <div class="cart-box">
+    <div class="cart-title">
+      Cart
+    </div>
+    <div class="cart-description">
+      <p>Your cart is empty</p>
+      
+      <div class="cart-box-detail">
+      <img src="./images/image-product-1-thumbnail.jpg" class="image-cart">
+      <p class="description">Fall Limited Edition Sneakers<br>
+      $ 125,00 x <span>3</span> <span class="cart-price">$ 375,00</span>
+      </p>
+      <img src="./images/icon-delete.svg" alt="" id="trash">
+    </div>
+    <div class="checkout">
+      <button>Checkout</button>
+    </div>
+
+    </div>
+  </div>
+
+
+  <div class="product">
+    <div class="product-image">
+      <div class="main-img">
+        <img src="./images/image-product-1.jpg" id="img-product-main">
+      </div>
+      <div class="tmbs">
+        <img src="./images/image-product-1-thumbnail.jpg" id="img-product" class="selected" related-image="./images/image-product-1.jpg" >
+        <img src="./images/image-product-2-thumbnail.jpg" id="img-product" related-image="./images/image-product-2.jpg">
+        <img src="./images/image-product-3-thumbnail.jpg" id="img-product" related-image="./images/image-product-3.jpg">
+        <img src="./images/image-product-4-thumbnail.jpg" id="img-product" related-image="./images/image-product-4.jpg">  
+      </div>
+    </div>
+    <div class="product-description">
+      <div class="subtitle">
+        Sneaker Company
+      </div>
+      <div class="title">
+        Fall Limited Edition Sneakers
+      </div>
+      <div class="description">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </div>
+      <div class="price-section">
+        <div class="price"> $ 125.00
+          <br>
+          <span>$250.00</span>
+        </div>
+        <div class="discount">50%</div>
+      </div>
+      <div class="cart-section">
+        <div class="qty">
+          <button id="plus">+</button>
+          <span class="number">0</span>
+          <button id="minus">-</button>
+        </div>
+        <button class="addtocart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox">
+    
+    <div class="container">
+      <div class="close">X</div>
+      <div class="product-image">
+        <div class="main-img">
+          <img src="./images/image-product-1.jpg" id="img-product-main-box">
+        </div>
+        <div class="tmbs">
+          <img src="./images/image-product-1-thumbnail.jpg" id="img-product" class="selected" related-image="./images/image-product-1.jpg">
+          <img src="./images/image-product-2-thumbnail.jpg" id="img-product" related-image="./images/image-product-2.jpg">
+          <img src="./images/image-product-3-thumbnail.jpg" id="img-product" related-image="./images/image-product-3.jpg">
+          <img src="./images/image-product-4-thumbnail.jpg" id="img-product" related-image="./images/image-product-4.jpg">  
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--
+  -->
+  <script src="app.js"></script>
+</body>
+</html>
